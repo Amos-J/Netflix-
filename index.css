@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.hero{
+    background-image: url(../images/NG-en-20231106-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+nav{
+    width:80% ;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+nav div button{
+    border-radius: 4px;
+    border: none;
+    background-color: red;
+    margin: 10px;
+    padding: 5px 15px;
+    color: white;
+}
+h1{
+    font-size: 3em;
+    color: white;
+}
+p{
+    font-size: 1.5em;
+    color: white;
+}
+.hero__details{
+    color: white;
+    text-align: center;
+    padding-top: 195px;
+}
+.hero__details h1{
+    font-size: 3em;
+}
+.hero__details p{
+    font-size: 1.5em;
+    width: 60%;
+    margin: auto;
+}
+.email-form-container{
+    text-align: center;
+    padding-bottom: 180px;
+}
+.email-form-container input{
+width: 350px;
+opacity: 0.5;
+background-color: black;
+padding: 12px; 
+}
+::placeholder{
+    color:white;    
+}
+.email-form-container button{
+    padding: 15px 20px; 
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 4px;             
+}
+.netflix-card{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.card-img{
+    margin-top: 50px;
+}
+.card-img img{
+    width: 450px;
+}
+.feature-details{
+    margin-top: 100px;
+}
+.accordion{
+    padding-top: 150px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 75px;
+}
+.accordion h1{
+    text-align: center;
+}
+.accordion-button.collapsed::after{
+    background-image: url(../images/plus-lg.svg);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../images/x-lg.svg);
+} 
+hr {
+    height: 9px;
+    background-color: rgb(172, 165, 165);
+    border: none;
+    margin: 0;
+}
+footer p{
+    margin-left: 12.5%;
+}
+footer .list__items{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+}
+.list__items li{
+    list-style-type: none;
+}
+a{
+    color: white;
+}
+@media (max-width: 1280px) {
+    nav{
+    width:90% ;
+    }
+}
+@media (max-width: 960px) {
+    .netflix-card{
+    flex-wrap: wrap;
+    }
+    .card-img{
+    margin-top: 10px;
+    margin: auto;
+    }
+    .hero__details{
+    padding-top: 95px;
+    }
+    .email-form-container{
+    padding-bottom: 80px;
+    }
+    .feature-details1{
+    margin-top: 50px;
+    }
+    footer .list__items{
+    flex-wrap: wrap;
+}
+}
+@media (max-width: 800px) {
+    .hero__details{
+    width: 90%;
+    margin: auto;
+    }
+}
+@media (max-width: 520px) {
+    .card-img img{
+    width: 350px;
+    }   
+} 
+@media (max-width: 430px) {
+    .email-form-container input{
+    width: 90%;      
+    }
+    .email-form-container button{
+        width: 50%;
+    }
+    p{
+        font-size: 1em;
+    }
+    h1{
+        font-size: 2em;
+    }
+    .hero__details h1{
+    font-size: 2em;
+    }
+    .hero__details p{
+        font-size: 1em;
+    }
+    .hero__details{
+    padding-top: 42.5px;
+    }
+    .email-form-container{
+    padding-bottom: 40px;
+    }
+    .accordion{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    }
+    .feature-details{
+    margin-top: 40px;
+}
+} 
+@media (max-width: 400px) {
+    .card-img img{
+    width: 300px;
+    }  
+    .netflix-card{
+    width: 90%;
+    margin: auto;
+    } 
+} 
+@media (max-width: 320px) {
+    .card-img img{
+    width: 250px;
+    } 
+    .email-form-container button{
+    padding: 5px 10px;            
+    }
+} 
+@media (max-width: 290px) {
+    nav div img{
+        width: 100px;
+    }
+    nav div button{
+    padding: 3px 10px;
+    }
+}
+@media (max-width: 265px) {
+    .card-img img{
+    width:200px;
+    }  
+    .netflix-card{
+    margin: auto;
+    }
+    .email-form-container button{
+    padding: 4px 7px;            
+    }
+    .email-form-container input{
+    width: 150px; 
+    }
+} 
+@media (max-width: 214px) {
+    .card-img img{
+    width:150px;
+    }  
+} 
+@media (max-width: 210px) {
+    nav{
+    display: block;
+    }
+    nav div img{
+        padding-top: 12px;
+    }
+    nav div button{
+    margin: auto;
+    }
+}
+@media (max-width: 177px) {
+    .card-img img{
+    width:95px;
+    }  
+} 
